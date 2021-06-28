@@ -1,0 +1,45 @@
+$ make task2
+gcc -Wall -std=c99 -I. -o task2 task2.c hidden_markov_model.c -lm
+
+$ ./task2 ./fig1_hmm.txt 
+nowStringLenCount : 115
+setNum : 6
+symbolStringSet      [ 0] : "3331261634334543"
+stateOrderSet        [ 0] : "1111111111111111"
+predictStateOrderSet [ 0] : "1111111111111111"
+symbolStringSet      [ 1] : "52614243163514"
+stateOrderSet        [ 1] : "11111111111111"
+predictStateOrderSet [ 1] : "11111111111111"
+symbolStringSet      [ 2] : "4224636456663"
+stateOrderSet        [ 2] : "1222222222221"
+predictStateOrderSet [ 2] : "1111222222222"
+symbolStringSet      [ 3] : "42312662216142256616642616"
+stateOrderSet        [ 3] : "11211111111111111222222222"
+predictStateOrderSet [ 3] : "11111111111111112222222222"
+symbolStringSet      [ 4] : "116331531416652122"
+stateOrderSet        [ 4] : "112211111111111111"
+predictStateOrderSet [ 4] : "111111111111111111"
+symbolStringSet      [ 5] : "3213624565323352356526261144"
+stateOrderSet        [ 5] : "1111111111111111111122221111"
+predictStateOrderSet [ 5] : "1111111111111111111111111111"
+percentage of correct : 89.565%
+
+$ ./task2 ./sample_hmm_stnum=7.txt 
+nowStringLenCount : 121
+setNum : 5
+symbolStringSet      [ 0] : "HHDDHHSHKRRKRSRKHHDHHKHHRSHHHKRSSRR"
+stateOrderSet        [ 0] : "22222222111121321222222222222142533"
+predictStateOrderSet [ 0] : "22442222133333312222222222222135533"
+symbolStringSet      [ 1] : "KKRRHHDSD"
+stateOrderSet        [ 1] : "113323444"
+predictStateOrderSet [ 1] : "113322444"
+symbolStringSet      [ 2] : "SKKDDHHHRHHDHKSRKDDD"
+stateOrderSet        [ 2] : "52244222422421511443"
+predictStateOrderSet [ 2] : "51144222222221111444"
+symbolStringSet      [ 3] : "RRRHDDRRKSRHDSSSRHSKSRS"
+stateOrderSet        [ 3] : "33554441133221153333342"
+predictStateOrderSet [ 3] : "33324433333245555555555"
+symbolStringSet      [ 4] : "KRHKRKKRRSDDSRKDHKDHRHDHDDDSRRRRHR"
+stateOrderSet        [ 4] : "3333314335355214213333444443333153"
+predictStateOrderSet [ 4] : "1111111335444444222222224445333333"
+percentage of correct : 55.372%

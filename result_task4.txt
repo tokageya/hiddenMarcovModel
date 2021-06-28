@@ -1,0 +1,152 @@
+$ make task4
+gcc -Wall -std=c99 -I. -o task4 task4.c hidden_markov_model.c -lm
+
+$ ./task4 ./fig2_hmm.txt 
+ ===== in main, now predictCount =   0 ===== 
+ ===== in main, now predictCount =   1 ===== 
+ ===== in main, now predictCount =   2 ===== 
+ ===== in main, now predictCount =   3 ===== 
+ ===== in main, now predictCount =   4 ===== 
+ ===== in main, now predictCount =   5 ===== 
+ ===== in main, now predictCount =   6 ===== 
+ ===== in main, now predictCount =   7 ===== 
+ ===== in main, now predictCount =   8 ===== 
+ ===== in main, now predictCount =   9 ===== 
+ ===== in main, now predictCount =  10 ===== 
+ ===== in main, now predictCount =  11 ===== 
+ ===== in main, now predictCount =  12 ===== 
+ ===== in main, now predictCount =  13 ===== 
+ ===== in main, now predictCount =  14 ===== 
+ ===== in main, now predictCount =  15 ===== 
+ ===== in main, now predictCount =  16 ===== 
+ ===== in main, now predictCount =  17 ===== 
+ ===== in main, now predictCount =  18 ===== 
+ ===== in main, now predictCount =  19 ===== 
+ ===== in main, now predictCount =  20 ===== 
+ ===== in main, now predictCount =  21 ===== 
+ ===== in main, now predictCount =  22 ===== 
+ ===== in main, now predictCount =  23 ===== 
+ ===== in main, now predictCount =  24 ===== 
+ ===== in main, now predictCount =  25 ===== 
+ ===== in main, now predictCount =  26 ===== 
+ ===== in main, now predictCount =  27 ===== 
+ ===== in main, now predictCount =  28 ===== 
+ ===== in main, now predictCount =  29 ===== 
+ ===== in main, now predictCount =  30 ===== 
+ ===== in main, now predictCount =  31 ===== 
+ ===== in main, now predictCount =  32 ===== 
+ ===== in main, now predictCount =  33 ===== 
+ ===== in main, now predictCount =  34 ===== 
+ ===== in main, now predictCount =  35 ===== 
+ ===== in main, now predictCount =  36 ===== 
+ ===== in main, now predictCount =  37 ===== 
+ ===== in main, now predictCount =  38 ===== 
+ ===== in main, now predictCount =  39 ===== 
+ ===== in main, now predictCount =  40 ===== 
+ ===== in main, now predictCount =  41 ===== 
+ ===== in main, now predictCount =  42 ===== 
+ ===== in main, now predictCount =  43 ===== 
+ ===== in main, now predictCount =  44 =====
+ ===== in main, now predictCount =  45 =====
+ ===== in main, now predictCount =  46 =====
+ ===== in main, now predictCount =  47 =====
+ ===== in main, now predictCount =  48 =====
+ ===== in main, now predictCount =  49 =====
+ ===== in main, now predictCount =  50 =====
+ ===== in main, now predictCount =  51 =====
+ ===== in main, now predictCount =  52 =====
+ ===== in main, now predictCount =  53 ===== 
+ ===== in main, now predictCount =  54 ===== 
+ ===== in main, now predictCount =  55 ===== 
+ ===== in main, now predictCount =  56 ===== 
+ ===== in main, now predictCount =  57 ===== 
+ ===== in main, now predictCount =  58 ===== 
+ ===== in main, now predictCount =  59 ===== 
+ ===== in main, now predictCount =  60 ===== 
+ ===== in main, now predictCount =  61 ===== 
+ ===== in main, now predictCount =  62 ===== 
+ ===== in main, now predictCount =  63 ===== 
+ ===== in main, now predictCount =  64 ===== 
+ ===== in main, now predictCount =  65 ===== 
+ ===== in main, now predictCount =  66 ===== 
+ ===== in main, now predictCount =  67 ===== 
+ ===== in main, now predictCount =  68 =====
+ ===== in main, now predictCount =  69 =====
+ ===== in main, now predictCount =  70 =====
+ ===== in main, now predictCount =  71 =====
+ ===== in main, now predictCount =  72 =====
+ ===== in main, now predictCount =  73 =====
+ ===== in main, now predictCount =  74 =====
+ ===== in main, now predictCount =  75 =====
+ ===== in main, now predictCount =  76 =====
+ ===== in main, now predictCount =  77 ===== 
+ ===== in main, now predictCount =  78 ===== 
+ ===== in main, now predictCount =  79 ===== 
+ ===== in main, now predictCount =  80 ===== 
+ ===== in main, now predictCount =  81 ===== 
+ ===== in main, now predictCount =  82 ===== 
+ ===== in main, now predictCount =  83 ===== 
+ ===== in main, now predictCount =  84 ===== 
+ ===== in main, now predictCount =  85 ===== 
+ ===== in main, now predictCount =  86 ===== 
+ ===== in main, now predictCount =  87 ===== 
+ ===== in main, now predictCount =  88 ===== 
+ ===== in main, now predictCount =  89 ===== 
+ ===== in main, now predictCount =  90 ===== 
+ ===== in main, now predictCount =  91 ===== 
+ ===== in main, now predictCount =  92 ===== 
+ ===== in main, now predictCount =  93 ===== 
+ ===== in main, now predictCount =  94 ===== 
+ ===== in main, now predictCount =  95 ===== 
+ ===== in main, now predictCount =  96 ===== 
+ ===== in main, now predictCount =  97 ===== 
+ ===== in main, now predictCount =  98 ===== 
+ ===== in main, now predictCount =  99 ===== 
+ ===== predict end ===== 
+
+------------ correct hmm ----------------
+
+hmm->sigmasNum = 6, hmm->statesNum = 4
+hmm->sigma = [ 1, 2, 3, 4, 5, 6, ]
+
+=============== hmm->delta ===============
+[
+  [ 0.000, 0.500, 0.500, 0.000, ],
+  [ 0.000, 0.800, 0.190, 0.010, ],
+  [ 0.000, 0.190, 0.800, 0.010, ],
+  [ 0.000, 0.000, 0.000, 0.000, ],
+]
+
+=============== hmm->e ===============
+[
+  [ 0.000, 0.000, 0.000, 0.000, 0.000, 0.000, ],
+  [ 0.800, 0.050, 0.050, 0.050, 0.050, 0.000, ],
+  [ 0.000, 0.050, 0.050, 0.050, 0.050, 0.800, ],
+  [ 0.000, 0.000, 0.000, 0.000, 0.000, 0.000, ],
+]
+
+
+
+------------ nearestHmm ----------------
+
+hmm->sigmasNum = 6, hmm->statesNum = 4
+hmm->sigma = [ 1, 2, 3, 4, 5, 6, ]
+
+=============== hmm->delta ===============
+[
+  [ 0.000, 0.516, 0.484, 0.000, ],
+  [ 0.000, 0.811, 0.173, 0.016, ],
+  [ 0.000, 0.172, 0.812, 0.016, ],
+  [ 0.000, 0.000, 0.000, 0.000, ],
+]
+
+=============== hmm->e ===============
+[
+  [ 0.000, 0.000, 0.000, 0.000, 0.000, 0.000, ],
+  [ 0.803, 0.066, 0.036, 0.062, 0.034, 0.000, ],
+  [ 0.000, 0.037, 0.065, 0.037, 0.066, 0.795, ],
+  [ 0.000, 0.000, 0.000, 0.000, 0.000, 0.000, ],
+]
+==================
+minSumP = 0.226401
+==================

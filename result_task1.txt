@@ -1,0 +1,12 @@
+$ make task1
+gcc -Wall -std=c99 -I. -o task1 task1.c hidden_markov_model.c -lm
+
+$ ./task1 ./fig1_hmm.txt 
+generatedString         : "5416346432554566666662666"
+stateOrder              : "1111111111111222222222222"
+strlen(generatedString) : 25
+
+$ ./task1 ./sample_hmm_stnum=7.txt
+generatedString         : "SRHHSKKKRKKRKDSSHDRSKSHRSSDR"
+stateOrder              : "5322511111111155523515335523"
+strlen(generatedString) : 28
